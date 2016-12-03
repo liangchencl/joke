@@ -1,0 +1,3 @@
+.joke_list {font-size: 28rpx;margin: 40rpx ;line-height: 1.6em;}
+.content {text-indent: 2em;}
+.time {border-bottom: 2rpx solid #ccc;padding-bottom: 30rpx;text-align: right;color: #4aafe2;margin-top: 10rpx;}
