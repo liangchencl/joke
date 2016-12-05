@@ -1,7 +1,9 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/text/text",
+    "pages/sfz/sfz"
   ],
   "window":{
     "backgroundTextStyle":"light",

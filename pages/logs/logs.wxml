@@ -1,6 +1,6 @@
 <!--logs.wxml-->
 <scroll-view scroll-y="true" scroll-top="{{scrollTop}}" style="height:{{scrollHeight}}px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" >
-    <view wx:for="{{investList}}" class="joke_list">
+    <view wx:for="{{investList}}" class="joke_list" data-hi="ind" bindtap="click">
         <view class="content">{{item.content}}</view>
         <view class="time">{{item.updatetime}}</view>
     </view>

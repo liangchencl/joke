@@ -1,0 +1,13 @@
+<view class="content">
+    <view class="name">姓名：</view>
+    <view class="birthday">出生日期：</view>
+    <view class="area">地址：</view>
+</view>
+
+<form  bindsubmit="bindViewS">
+    <view class="search">
+    <!-- 注意 input里面的name不能不写 -->
+        <input name="input" value="123" type="number" />
+        <button formType="submit">查询</button>
+    </view>
+</form>

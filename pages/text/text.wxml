@@ -1,0 +1,25 @@
+<!--pages/text/text.wxml-->
+<view class="content">
+    <view touchstart="startFirst" touchmove="moveFirst" touchend="endFirst">10241024102410241024</view>
+</view>
+
+<view class="con">
+    <view class="">
+        <view class="item" id="item-0-0">1</view>
+        <view class="item" id="item-0-1">2</view>
+        <view class="item" id="item-0-2">3</view>
+        <view class="item" id="item-0-3">4</view>
+        <view class="item" id="item-1-0">5</view>
+        <view class="item" id="item-1-1">6</view>
+        <view class="item" id="item-1-2">7</view>
+        <view class="item" id="item-1-3">8</view>
+        <view class="item" id="item-2-0">9</view>
+        <view class="item" id="item-2-1">10</view>
+        <view class="item" id="item-2-2">11</view>
+        <view class="item" id="item-2-3">12</view>
+        <view class="item" id="item-3-0">13</view>
+        <view class="item" id="item-3-1">14</view>
+        <view class="item" id="item-3-2">15</view>
+        <view class="item" id="item-3-3">16</view>
+    </view>
+</view>

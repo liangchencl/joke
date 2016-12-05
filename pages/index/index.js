@@ -4,12 +4,24 @@ var app = getApp()
 Page({
   data: {
     motto: '开心一笑',
+    text: '1024',
+    text_s: '身份证查询',
     userInfo: {}
   },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
+    })
+  },
+  bindViewText: function() {
+    wx.navigateTo({
+      url: '../text/text'
+    })
+  },
+  bindViewS:function(){
+    wx.navigateTo({
+      url: '../sfz/sfz'
     })
   },
   onLoad: function () {
