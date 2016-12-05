@@ -1,7 +1,7 @@
 <view class="content">
     <view class="name">姓名：</view>
-    <view class="birthday">出生日期：</view>
-    <view class="area">地址：</view>
+    <view class="birthday">出生日期：{{birthday}}</view>
+    <view class="area">地址：{{area}}</view>
 </view>
 
 <form  bindsubmit="bindViewS">
