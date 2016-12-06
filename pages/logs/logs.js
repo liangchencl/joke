@@ -6,21 +6,21 @@ var url = "https://japi.juhe.cn/joke/content/text.from";
 // 把 wx.request({}) 封装到一个函数里面来了了，下面直接调用即可
 var getList = function(that){
     wx.request({
-            url: url,
-            data: 
-            {
-                key:key,
-                page:num,
-                pagesize:'10'
-            },
-            method: 'GET', 
-            success:function(res){
-                arr = arr.concat(res.data.result.data)
-                that.setData({
-                    investList:arr
-                })
-            }
-        })
+        url: url,
+        data: 
+        {
+            key:key,
+            page:num,
+            pagesize:'10'
+        },
+        method: 'GET', 
+        success:function(res){
+            arr = arr.concat(res.data.result.data)
+            that.setData({
+                investList:arr
+            })
+        }
+    })
 };
 
 

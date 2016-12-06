@@ -46,7 +46,11 @@ Page({
     })
   },
   onLoad: function (e) {
-      
+      wx.getSystemInfo({
+        success:function(res){
+          console.log(res)
+        }
+      })
       
   }
 })
