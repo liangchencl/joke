@@ -2,12 +2,14 @@
     <view class="name">性别：{{sex}}</view>
     <view class="birthday">出生日期：{{birthday}}</view>
     <view class="area">地址：{{area}}</view>
+    <view class="area">身份证号码：{{numb}}</view>
 </view>
+<view class="error" >{{error}}</view>
 
 <form  bindsubmit="bindViewS">
     <view class="search">
     <!-- 注意 input里面的name不能不写 -->
-        <input name="input" value="请输入身份证号码" type="number" />
+        <input name="input" placeholder="请输入身份证号码" type="number" />
         <button formType="submit">查询</button>
     </view>
 </form>

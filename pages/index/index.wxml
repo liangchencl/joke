@@ -13,4 +13,7 @@
   <view class="usertext" bindtap="bindViewS" >
     <text>{{text_s}}</text>
   </view>
+  <view class="usertext" bindtap="bindViewP" >
+    <text>{{text_p}}</text>
+  </view>
 </view>

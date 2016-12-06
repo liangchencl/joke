@@ -6,6 +6,7 @@ Page({
     motto: '开心一笑',
     text: '1024',
     text_s: '身份证查询',
+    text_p:'省市级联动',
     userInfo: {}
   },
   //事件处理函数
@@ -22,6 +23,11 @@ Page({
   bindViewS:function(){
     wx.navigateTo({
       url: '../sfz/sfz'
+    })
+  },
+  bindViewP:function(){
+    wx.navigateTo({
+      url: '../picker/picker'
     })
   },
   onLoad: function () {
