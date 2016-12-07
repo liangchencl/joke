@@ -4,6 +4,7 @@
     "pages/logs/logs",
     "pages/text/text",
     "pages/sfz/sfz",
+    "pages/doutu/doutu",
     "pages/picker/picker"
   ],
   "window":{
