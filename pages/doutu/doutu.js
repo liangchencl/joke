@@ -32,9 +32,14 @@ Page({
               
               var result;
               var arr = [];
+              // result = reg.exec(html)
+              // arr.push(result);
+              // console.log(arr)
+              //   that.setData({
+              //       imgList: arr
+              //   })
               while((result = reg.exec(html)) != null){
                   arr.push(result);
-                  console.log(arr)
                   that.setData({
                     imgList: arr
                   })

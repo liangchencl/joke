@@ -1,3 +1,10 @@
+
+<form bindsubmit="search" class="form">
+    <view class="search">
+        <input type="text" name="doutu" placeholder="search" />
+        <button formType="submit">搜索</button>
+    </view>
+</form>
 <view class="image">
     <view wx:for="{{imgList}}">
         <view>{{index}}</view>
@@ -5,9 +12,3 @@
         <image src="{{item}}" model="aspectFit"></image>
     </view>
 </view>
-<form bindsubmit="search">
-    <view class="search">
-        <input type="text" name="doutu" placeholder="search" />
-        <button formType="submit">搜索</button>
-    </view>
-</form>

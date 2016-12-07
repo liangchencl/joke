@@ -1,1 +1,3 @@
 .image image {margin: 40rpx;width:300rpx;height:300rpx;}
+.search {margin: 30rpx 40rpx;}
+.search input {border: 2rpx solid #ccc;margin-bottom: 20rpx;padding: 6rpx 20rpx;font-size: 30rpx;border-radius: 10rpx;}
