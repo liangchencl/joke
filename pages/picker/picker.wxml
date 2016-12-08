@@ -16,3 +16,13 @@
         </view>
     </picker>
 </view>
+
+
+<view class="info">
+    <view>县/区</view>
+    <picker bindchange="bindPickerArea" value="{{areaId}}" range="{{area[provinceId][cityId].areaes}}">
+        <view class="picker">
+            {{area[provinceId][cityId].areaes[areaId]}}
+        </view>
+    </picker>
+</view>

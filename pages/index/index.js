@@ -8,6 +8,7 @@ Page({
     text_s: '身份证查询',
     text_p:'省市级联动',
     text_d:'搜索图片',
+    text_c:'城市选择',
     userInfo: {}
   },
   //事件处理函数
@@ -34,6 +35,11 @@ Page({
   bindViewD:function(){
     wx.navigateTo({
       url: '../doutu/doutu'
+    })
+  },
+  bindViewC:function(){
+    wx.navigateTo({
+      url: '../city/city'
     })
   },
   onLoad: function () {
