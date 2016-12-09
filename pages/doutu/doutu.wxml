@@ -6,7 +6,7 @@
     </view>
 </form>
 <view class="image">
-    <view wx:for="{{imgList}}" class="imglist">
+    <view wx:for="{{imgList}}" wx:for-item="item" wx:for-index="inde" class="imglist">
         <view>{{index}}</view>
         <!--<view>{{item}}</view>-->
         <image src="{{item}}" model="aspectFill"></image>
