@@ -6,7 +6,6 @@
     "pages/text/text",
     "pages/sfz/sfz",
     "pages/doutu/doutu",
-    "pages/city/city",
     "pages/picker/picker"
   ],
   "window":{
