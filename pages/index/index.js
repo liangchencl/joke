@@ -9,6 +9,7 @@ Page({
     text_p:'省市级联动',
     text_d:'搜索图片',
     text_c:'城市选择',
+    map:"地图",
     userInfo: {}
   },
   //事件处理函数
@@ -40,6 +41,11 @@ Page({
   bindViewC:function(){
     wx.navigateTo({
       url: '../city/city'
+    })
+  },
+  bindViewM:function(){
+    wx.navigateTo({
+      url: '../map/map'
     })
   },
   onLoad: function () {

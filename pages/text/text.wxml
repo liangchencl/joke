@@ -1,6 +1,6 @@
 <!--pages/text/text.wxml-->
 <view class="content">
-    <view touchstart="startFirst" touchmove="moveFirst" touchend="endFirst">10241024102410241024</view>
+    <view bindtouchstart="startFirst" bindtouchmove="moveFirst" bindtouchend="endFirst">10241024102410241024</view>
 </view>
 
 <view class="con">

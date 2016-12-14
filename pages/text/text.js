@@ -28,13 +28,13 @@ Page({
   onUnload:function(){
     // 页面关闭
   },
-  startFirst:function(){
+  startFirst:function(e){
     console.log("kaishi")
   },
-  moveFirst:function(){
+  moveFirst:function(e){
     console.log("move")
   },
-  endFirst:function(){
+  endFirst:function(e){
     console.log("end")
   }
 })
