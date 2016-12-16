@@ -3,7 +3,7 @@
 var app = getApp()
 Page({
   data: {
-    motto: '开心一笑',
+    motto: '笑话大全',
     text: '1024',
     text_s: '身份证查询',
     text_p:'省市级联动',
