@@ -3,7 +3,7 @@
 .con {width: 500rpx;height: 500rpx;border: 2rpx solid #ccc;margin: 40rpx auto;position: relative;background: #bbada0;}
 .item {position: absolute;width: 100rpx;height: 100rpx;box-sizing: border-box;text-align: center;line-height: 100rpx;background: #ccc0b3;margin: 20rpx;}
 
-
+.movebox {position: absolute;width: 100rpx;height: 100rpx;background: rgb(238, 228, 218);margin: 20rpx;text-align: center;line-height: 100rpx;}
 
 
 

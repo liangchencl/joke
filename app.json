@@ -1,9 +1,9 @@
 {
   "pages":[
-    
+    "pages/text/text",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/text/text",
+    
     "pages/sfz/sfz",
     "pages/doutu/doutu",
     "pages/map/map",
