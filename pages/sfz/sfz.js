@@ -3,7 +3,7 @@
 var app = getApp()
 Page({
   data: {
-
+    start:"1"
   },
   //事件处理函数
   bindViewS:function(e){
@@ -52,5 +52,19 @@ Page({
         }
       })
       
+  },
+
+
+  clickMe:function(e){
+    if(e.currentTarget.dataset.click == 'start'){
+      this.setData({
+        start:"0"
+      })
+    }else{
+      this.setData({
+          start:"1"
+      })
+    }
+    
   }
 })

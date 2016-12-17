@@ -13,3 +13,12 @@
         <button formType="submit">查询</button>
     </view>
 </form>
+
+<view>
+    <view class="start" bindtap="clickMe" wx:if="{{start == 1}}" data-click="start">
+        <button size="mini" >启用</button>
+    </view>
+    <view class="stop" bindtap="clickMe" wx:else  data-click="stop">
+        <button size="mini" >停用</button>
+    </view>
+</view>

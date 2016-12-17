@@ -23,6 +23,7 @@ Page({
   data:{
     item_0_0_left:[0,120,240,360],
     item_0_0_top:[0,120,240,360]
+    
   },
   onLoad:function(e){
     var that = this;
@@ -74,7 +75,7 @@ Page({
 
     }else if( startTop - endTop > 0 && startTop - endTop > Math.abs(endLeft - startLeft)){
       console.log("向上移动了")
-      
+
     }else if( endTop - startTop > 0 && endTop - startTop > Math.abs(endLeft - startLeft)){
       console.log("向下移动了")
     }
