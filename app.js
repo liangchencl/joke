@@ -16,6 +16,11 @@ App({
         success: function () {
           wx.getUserInfo({
             success: function (res) {
+              console.log(res)
+              console.log(typeof(res.rawData));
+              var json = JSON.parse(res.rawData)
+              console.log(json.nickName)
+              console.log("上面的是app.js里面打印出来的")
               that.globalData.userInfo = res.userInfo
               typeof cb == "function" && cb(that.globalData.userInfo)
             }
