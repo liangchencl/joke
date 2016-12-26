@@ -9,11 +9,12 @@ var isEmail = function (email) {
 var isMoblie = function (mobile) {
         return /^1[358]\d{9}$/.test(mobile);
     };
-
+// 匹配中文
 var isNumberlatterCcter = function (userName) {
         return /^[\u0391-\uFFE5]+$/.test(userName);
     };
-
+// 匹配中文字母数字
+// /^[\u0391-\uFFE5A-Za-z0-9]+$/
 Page({
     data:{
         error:false,
