@@ -1,0 +1,7 @@
+.section {margin-top: 20rpx;}
+.section__title {line-height: 72rpx;width: 240rpx;text-align: right;font-size: 28rpx;}
+input {border: 2rpx solid #ccc;padding: 10rpx 20rpx;border-radius: 6rpx;font-size: 28rpx;}
+.section text {font-size: 26rpx;color: #f00;line-height: 72rpx;}
+.btn-area {margin-top: 100rpx;}
+.btn-area button {margin: 40rpx;}
+

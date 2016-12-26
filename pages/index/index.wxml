@@ -22,4 +22,7 @@
   <view class="usertext" bindtap="bindViewM" >
     <text>{{map}}</text>
   </view>
+  <view class="usertext" bindtap="bindViewF" >
+    <text>{{form}}</text>
+  </view>
 </view>

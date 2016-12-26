@@ -1,0 +1,49 @@
+<view>
+    <form bindsubmit="formSubmit" bindreset="formReset">
+        <view class="section">
+            <view class="section__title fn-left">用户名：</view>
+            <input name="userName" placeholder="please input here" class="fn-left" />
+            <text wx:if="{{error}}">用户名错误</text>
+            <view class="fn-clear"></view>
+        </view>
+        <view>
+            
+            <text wx:for="{{arr}}">{{item}}<!--<view>{{link[index].url}}</view> --></text>
+        </view>
+        <view></view>
+        <view class="section">
+            <view class="section__title fn-left">密码：</view>
+            <input name="password" placeholder="please input here" class="fn-left" type="password" />
+            <view class="fn-clear"></view>
+        </view>
+        
+        <view class="section">
+            <view class="section__title fn-left">确认密码：</view>
+            <input name="password2" placeholder="please input here" class="fn-left" type="password" />
+            <view class="fn-clear"></view>
+        </view>
+
+        <view class="section">
+            <view class="section__title fn-left">email：</view>
+            <input name="email" placeholder="please input here" class="fn-left" />
+            <view class="fn-clear"></view>
+        </view>
+
+        <view class="section">
+            <view class="section__title fn-left">手机号码：</view>
+            <input name="phoneNumber" placeholder="please input here" class="fn-left" />
+            <view class="fn-clear"></view>
+        </view>
+
+        <view class="section">
+            <view class="section__title fn-left">手机验证码：</view>
+            <input name="phoneCode" placeholder="please input here" class="fn-left" />
+            <view class="fn-clear"></view>
+        </view>
+
+        <view class="btn-area">
+            <button formType="submit" type="primary" size="default">Submit</button>
+            <button formType="reset" type="primary" size="default">Reset</button>
+        </view>
+    </form>
+</view>

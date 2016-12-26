@@ -10,6 +10,7 @@ Page({
     text_d:'搜索图片',
     text_c:'城市选择',
     map:"地图",
+    form:"表单验证",
     userInfo: {}
   },
   //事件处理函数
@@ -46,6 +47,11 @@ Page({
   bindViewM:function(){
     wx.navigateTo({
       url: '../map/map'
+    })
+  },
+  bindViewF:function(){
+    wx.navigateTo({
+      url: '../form/form'
     })
   },
   onLoad: function () {
