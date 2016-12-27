@@ -96,8 +96,5 @@ Page({
     }
     var sh;
     sh = setInterval(daojishi,1000)
-    
-
-    
   }
 })
