@@ -35,3 +35,8 @@
     <view>FontAwesome字体</view>
     <text class="fa fa-plane" style="font-size:40rpx;"></text>
 </view>
+
+<view>
+    <view>倒计时</view>
+    <button bindtap="djs">{{djs}}</button>
+</view>

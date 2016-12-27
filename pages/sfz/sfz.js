@@ -4,7 +4,8 @@ var app = getApp()
 Page({
   data: {
     start:"1",
-    time: '12:01'
+    time: '12:01',
+    djs:"点击获取手机验证码"
   },
   //事件处理函数
   bindViewS:function(e){
@@ -71,6 +72,32 @@ Page({
           start:"1"
       })
     }
+    
+  },
+
+  djs:function(e){
+    console.log(e)
+    var time = 120;
+    var i = 1;
+    var that = this;
+    function daojishi(){
+      var minute = time - i;
+      i++
+      that.setData({
+        djs:"倒计时"+ minute +"秒"
+      })
+      if(minute == 0){
+        clearInterval(sh)
+        that.setData({
+          djs:"点击重新获取手机验证码"
+        })
+      }
+      console.log(minute)
+    }
+    var sh;
+    sh = setInterval(daojishi,1000)
+    
+
     
   }
 })
