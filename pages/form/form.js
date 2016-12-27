@@ -61,5 +61,12 @@ Page({
         this.setData({
                 error:false,
             })
+    },
+    setstyle:function(){
+        console.log(123)
+        // 底部有导航栏的时候才适用
+        wx.switchTab({
+           url: '../index/index'
+      })
     }
 })

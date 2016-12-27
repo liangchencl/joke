@@ -65,5 +65,8 @@ Page({
         userInfo:userInfo
       })
     })
+  },
+  onshow:function(){
+    console.log("onshow")
   }
 })
