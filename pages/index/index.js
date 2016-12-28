@@ -66,7 +66,7 @@ Page({
       })
     })
   },
-  onshow:function(){
-    console.log("onshow")
-  }
+  // onshow:function(){
+  //   console.log("onshow")
+  // }
 })

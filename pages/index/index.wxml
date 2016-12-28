@@ -25,5 +25,5 @@
   <view class="usertext" bindtap="bindViewF" >
     <text>{{form}}</text>
   </view>
-  <view bindtap="onshow">点击事件</view>
+  <!--<view bindtap="onshow">点击事件</view>-->
 </view>

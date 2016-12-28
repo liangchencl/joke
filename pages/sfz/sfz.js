@@ -1,6 +1,6 @@
-//index.js
 //获取应用实例
 var app = getApp()
+
 Page({
   data: {
     start:"1",
@@ -77,12 +77,11 @@ Page({
 
   djs:function(e){
     console.log(e)
-    var time = 120;
-    var i = 1;
+    var time = 10;
+    // var i = 1;
     var that = this;
     function daojishi(){
-      var minute = time - i;
-      i++
+      var minute = time--;
       that.setData({
         djs:"倒计时"+ minute +"秒"
       })
