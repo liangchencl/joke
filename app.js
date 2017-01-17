@@ -18,8 +18,9 @@ App({
           // console.log(123)
           wx.getUserInfo({
             success: function (res) {
-              // console.log(res)
-              // console.log(typeof(res.rawData));
+              console.log(res)
+              console.log(res.rawData)
+              console.log(typeof(res.rawData));
               // var json = JSON.parse(res.rawData)  // JSON.parse() 将字符串转换成json对象
               // JSON.stringify() 将json对象转换成字符串
               // console.log(json.nickName)

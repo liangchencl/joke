@@ -15,6 +15,12 @@ var isNumberlatterCcter = function (userName) {
     };
 // 匹配中文字母数字
 // /^[\u0391-\uFFE5A-Za-z0-9]+$/
+
+var tojson = function (str){
+    return str = JSON.parse(str);
+}
+
+
 Page({
     data:{
         error:false,
@@ -27,7 +33,14 @@ Page({
         user:"用户名填写错误"
     },
     onLoad:function(){
-
+        var a={"name":"tom","sex":"男","img":'{"big":"big.jpg","small":"small.jpg"}'}; 
+        
+        console.log(a.img);
+        var b = tojson(a.img)
+        // console.log(typeof(a.img))  // string
+        // a.img = JSON.parse(a.img)
+        a.img = b;
+        console.log(typeof(a.img))  // object
     },
     formSubmit: function(e) {
         console.log('form发生了submit事件，携带数据为：', e.detail.value)

@@ -29,3 +29,9 @@
 <view class="adress">
     你选择的地址是：{{province[provinceId]}}省{{city[provinceId].cities[cityId]}}市{{area[provinceId][cityId].areaes[areaId]}}县/区
 </view>
+
+<view>
+    <view>FontAwesome字体</view>
+    <text class="fa fa-plane" style="font-size:40rpx;"></text>
+    <text class="fa fa-home" style="font-size:40rpx;"></text>
+</view>

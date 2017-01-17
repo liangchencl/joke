@@ -20,8 +20,12 @@ Page({
     })
   },
   bindViewText: function() {
+    var id = 1;
     wx.navigateTo({
-      url: '../text/text'
+      url: '../text/text?item='+id,
+      success:function(res){
+        console.log(res)
+      }
     })
   },
   bindViewS:function(){

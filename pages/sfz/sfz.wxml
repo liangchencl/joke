@@ -34,6 +34,7 @@
 <view>
     <view>FontAwesome字体</view>
     <text class="fa fa-plane" style="font-size:40rpx;"></text>
+    <text class="fa fa-home" style="font-size:40rpx;"></text>
 </view>
 
 <view>
