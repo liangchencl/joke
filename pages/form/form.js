@@ -41,6 +41,10 @@ Page({
         // a.img = JSON.parse(a.img)
         a.img = b;
         console.log(typeof(a.img))  // object
+
+        var myRe = /d(b+)d/g;
+        var myArray = myRe.exec("cdbbdbsbz");
+        console.log(myArray)
     },
     formSubmit: function(e) {
         console.log('form发生了submit事件，携带数据为：', e.detail.value)
@@ -75,11 +79,11 @@ Page({
                 error:false,
             })
     },
-    setstyle:function(){
-        console.log(123)
+    setstyle:function(e){
+        console.log(e)
         // 底部有导航栏的时候才适用
-        wx.switchTab({
-           url: '../index/index'
-      })
+        // wx.switchTab({
+        //    url: '../index/index'
+        // })
     }
 })

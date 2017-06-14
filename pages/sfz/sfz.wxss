@@ -9,3 +9,5 @@
 
 .start button {background: #f00;}
 .stop button {background: #ccc;}
+
+.icon icon {vertical-align: middle}

@@ -46,5 +46,6 @@
             <button formType="reset" type="primary" size="default">Reset</button>
         </view>
     </form>
+    <view class="content">内容内容内容内容内容内容</view>
 </view>
 <view bindtap="setstyle">返回</view>

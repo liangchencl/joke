@@ -36,7 +36,9 @@
     <text class="fa fa-plane" style="font-size:40rpx;"></text>
     <text class="fa fa-home" style="font-size:40rpx;"></text>
 </view>
-
+<view class="icon">
+    这是一段文字 <text class="fa fa-home" style="font-size:30rpx;"></text><icon type="info" size="15"></icon>
+</view>
 <view>
     <view>倒计时</view>
     <button bindtap="djs">{{djs}}</button>

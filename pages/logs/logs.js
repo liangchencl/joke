@@ -1,7 +1,7 @@
 var app = getApp();
 var num = 1;
 var arr = [];
-var key = "d4535374cccf71ba15cabed042792655";
+var key = "a9c60896acc711357e0bd698828df65a";
 var url = "https://japi.juhe.cn/joke/content/text.from";
 // 把 wx.request({}) 封装到一个函数里面来了了，下面直接调用即可
 var getList = function(that){
@@ -65,7 +65,7 @@ Page({
         var that = this;
         console.log("移动到底部了");
         num++;
-        console.log(num)
+        // console.log(num)
         // wx.request({
         //     url: url,
         //     data: 
